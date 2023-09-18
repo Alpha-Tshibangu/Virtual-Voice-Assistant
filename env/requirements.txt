@@ -1,0 +1,11 @@
+openai
+vonage
+requests
+pinecone-client==2.2.1
+fastapi
+uvicorn
+tiktoken
+langchain
+llama-index==0.7.21
+pypdf
+airtable

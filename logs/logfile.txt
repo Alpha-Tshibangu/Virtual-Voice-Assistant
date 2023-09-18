@@ -1,0 +1,110 @@
+
+
+Whisper transcription took 2.28 seconds.
+
+Conversation History: {'CON-70557a88-6b88-4854-af9e-01e03103fc04': [{'role': 'user', 'content': "\n                    Remember that any misspellings in reference to services provided should be ignored and considered \n                    to be it's likely alternative according to the context (e.g. 'artin infusion' or '9 infusion' should \n                    be considered to be 'iron infusion'). Information not in context should be searched online.\n                    "}, {'role': 'user', 'content': "Um, I'd like to know, you know what, book me an appointment with Dr. Karim when he's next available."}]}
+
+Current User Input: [{'role': 'user', 'content': "Um, I'd like to know, you know what, book me an appointment with Dr. Karim when he's next available."}]
+
+
+Function to call identified as: fetch_time_slots with arguments: {'start_time': '2023-08-31T08:00:00', 'end_time': '2023-09-07T17:00:00', 'doctor_ids': 'Dr Karim Ahmed', 'availability_type_ids': 'Dr Karim Ahmed'}
+
+
+{'start_time': '2023-08-31T08:00:00', 'end_time': '2023-09-07T17:00:00', 'timezone': 'Australia/Sydney', 'clinic_id': 6848, 'availability_type_ids[]': 422093, 'doctor_ids[]': 117697}
+
+
+gpt-4 function calling completed in 14.046803951263428 seconds.
+
+
+No context query construction.
+
+
+No context query.
+
+
+Total elapsed time of all 4 processes was 16.32 seconds.
+
+--------------------------------------------------------
+
+
+CONVERSATION HISTORY ------ {'CON-70557a88-6b88-4854-af9e-01e03103fc04': [{'role': 'user', 'content': "\n                    Remember that any misspellings in reference to services provided should be ignored and considered \n                    to be it's likely alternative according to the context (e.g. 'artin infusion' or '9 infusion' should \n                    be considered to be 'iron infusion'). Information not in context should be searched online.\n                    "}, {'role': 'user', 'content': "Um, I'd like to know, you know what, book me an appointment with Dr. Karim when he's next available."}, {'role': 'assistant', 'content': 'The next available appointment slot with Dr. Karim Ahmed is on Wednesday, 6th of September at 3:00 PM. Would this work for you?'}]} 
+
+
+USER TRANSCRIPTION ------ Um, I'd like to know, you know what, book me an appointment with Dr. Karim when he's next available. 
+
+
+GPT-4 FUNCTION RESPONSE ------ The next available appointment slot with Dr. Karim Ahmed is on Wednesday, 6th of September at 3:00 PM. Would this work for you? 
+
+
+
+
+Whisper transcription took 1.33 seconds.
+
+Conversation History: {'CON-70557a88-6b88-4854-af9e-01e03103fc04': [{'role': 'user', 'content': "\n                    Remember that any misspellings in reference to services provided should be ignored and considered \n                    to be it's likely alternative according to the context (e.g. 'artin infusion' or '9 infusion' should \n                    be considered to be 'iron infusion'). Information not in context should be searched online.\n                    "}, {'role': 'user', 'content': "Um, I'd like to know, you know what, book me an appointment with Dr. Karim when he's next available."}, {'role': 'assistant', 'content': 'The next available appointment slot with Dr. Karim Ahmed is on Wednesday, 6th of September at 3:00 PM. Would this work for you?'}], 'CON-36cbfce0-dce0-4041-be6f-fdad5dafb0ec': [{'role': 'user', 'content': "\n                    Remember that any misspellings in reference to services provided should be ignored and considered \n                    to be it's likely alternative according to the context (e.g. 'artin infusion' or '9 infusion' should \n                    be considered to be 'iron infusion'). Information not in context should be searched online.\n                    "}, {'role': 'user', 'content': 'Yeah, that works.'}]}
+
+Current User Input: [{'role': 'user', 'content': 'Yeah, that works.'}]
+
+
+Function to call identified as: book_appointment with arguments: {'date': 'Wednesday, 6th of September', 'time': '3:00 PM', 'doctor_ids': 'Dr Karim Ahmed', 'iso_date_time': '2023-09-06T15:00:00'}
+
+
+
+
+FROM NUMBER ------ 61470273821
+
+
+
+
+gpt-4 function calling completed in 12.610358953475952 seconds.
+
+
+No context query construction.
+
+
+No context query.
+
+
+Total elapsed time of all 4 processes was 13.94 seconds.
+
+--------------------------------------------------------
+
+
+CONVERSATION HISTORY ------ {'CON-70557a88-6b88-4854-af9e-01e03103fc04': [{'role': 'user', 'content': "\n                    Remember that any misspellings in reference to services provided should be ignored and considered \n                    to be it's likely alternative according to the context (e.g. 'artin infusion' or '9 infusion' should \n                    be considered to be 'iron infusion'). Information not in context should be searched online.\n                    "}, {'role': 'user', 'content': "Um, I'd like to know, you know what, book me an appointment with Dr. Karim when he's next available."}, {'role': 'assistant', 'content': 'The next available appointment slot with Dr. Karim Ahmed is on Wednesday, 6th of September at 3:00 PM. Would this work for you?'}], 'CON-36cbfce0-dce0-4041-be6f-fdad5dafb0ec': [{'role': 'user', 'content': "\n                    Remember that any misspellings in reference to services provided should be ignored and considered \n                    to be it's likely alternative according to the context (e.g. 'artin infusion' or '9 infusion' should \n                    be considered to be 'iron infusion'). Information not in context should be searched online.\n                    "}, {'role': 'user', 'content': 'Yeah, that works.'}, {'role': 'assistant', 'content': 'Your appointment booking has been reserved. To complete your appointment booking with Dr Karim Ahmed on Wednesday, 6th of September, at 3:00 PM, please click on the link I sent via sms to your mobile number. \nCan I help you with anything else?'}]} 
+
+
+USER TRANSCRIPTION ------ Yeah, that works. 
+
+
+GPT-4 FUNCTION RESPONSE ------ Your appointment booking has been reserved. To complete your appointment booking with Dr Karim Ahmed on Wednesday, 6th of September, at 3:00 PM, please click on the link I sent via sms to your mobile number. 
+Can I help you with anything else? 
+
+
+
+
+Whisper transcription took 1.74 seconds.
+
+Conversation History: {'CON-70557a88-6b88-4854-af9e-01e03103fc04': [{'role': 'user', 'content': "\n                    Remember that any misspellings in reference to services provided should be ignored and considered \n                    to be it's likely alternative according to the context (e.g. 'artin infusion' or '9 infusion' should \n                    be considered to be 'iron infusion'). Information not in context should be searched online.\n                    "}, {'role': 'user', 'content': "Um, I'd like to know, you know what, book me an appointment with Dr. Karim when he's next available."}, {'role': 'assistant', 'content': 'The next available appointment slot with Dr. Karim Ahmed is on Wednesday, 6th of September at 3:00 PM. Would this work for you?'}], 'CON-36cbfce0-dce0-4041-be6f-fdad5dafb0ec': [{'role': 'user', 'content': "\n                    Remember that any misspellings in reference to services provided should be ignored and considered \n                    to be it's likely alternative according to the context (e.g. 'artin infusion' or '9 infusion' should \n                    be considered to be 'iron infusion'). Information not in context should be searched online.\n                    "}, {'role': 'user', 'content': 'Yeah, that works.'}, {'role': 'assistant', 'content': 'Your appointment booking has been reserved. To complete your appointment booking with Dr Karim Ahmed on Wednesday, 6th of September, at 3:00 PM, please click on the link I sent via sms to your mobile number. \nCan I help you with anything else?'}], 'CON-67b6c92b-a69d-46d2-9579-3d337d01b299': [{'role': 'user', 'content': "\n                    Remember that any misspellings in reference to services provided should be ignored and considered \n                    to be it's likely alternative according to the context (e.g. 'artin infusion' or '9 infusion' should \n                    be considered to be 'iron infusion'). Information not in context should be searched online.\n                    "}, {'role': 'user', 'content': 'When you have finished recording, you may hang up or press 1 for more options.'}]}
+
+Current User Input: [{'role': 'user', 'content': 'When you have finished recording, you may hang up or press 1 for more options.'}]
+gpt-4 pinecone query construction took 0.97 seconds.
+
+Pinecone semantic search for context took 1.30 seconds.
+
+gpt-4 text interaction took 8.22 seconds.
+
+Total elapsed time of all 4 processes was 12.23 seconds.
+
+--------------------------------------------------------
+
+gpt-4 Pinecone Query ------ Voice Mail 
+
+
+CONVERSATION HISTORY ------ {'CON-70557a88-6b88-4854-af9e-01e03103fc04': [{'role': 'user', 'content': "\n                    Remember that any misspellings in reference to services provided should be ignored and considered \n                    to be it's likely alternative according to the context (e.g. 'artin infusion' or '9 infusion' should \n                    be considered to be 'iron infusion'). Information not in context should be searched online.\n                    "}, {'role': 'user', 'content': "Um, I'd like to know, you know what, book me an appointment with Dr. Karim when he's next available."}, {'role': 'assistant', 'content': 'The next available appointment slot with Dr. Karim Ahmed is on Wednesday, 6th of September at 3:00 PM. Would this work for you?'}], 'CON-36cbfce0-dce0-4041-be6f-fdad5dafb0ec': [{'role': 'user', 'content': "\n                    Remember that any misspellings in reference to services provided should be ignored and considered \n                    to be it's likely alternative according to the context (e.g. 'artin infusion' or '9 infusion' should \n                    be considered to be 'iron infusion'). Information not in context should be searched online.\n                    "}, {'role': 'user', 'content': 'Yeah, that works.'}, {'role': 'assistant', 'content': 'Your appointment booking has been reserved. To complete your appointment booking with Dr Karim Ahmed on Wednesday, 6th of September, at 3:00 PM, please click on the link I sent via sms to your mobile number. \nCan I help you with anything else?'}], 'CON-67b6c92b-a69d-46d2-9579-3d337d01b299': [{'role': 'user', 'content': "\n                    Remember that any misspellings in reference to services provided should be ignored and considered \n                    to be it's likely alternative according to the context (e.g. 'artin infusion' or '9 infusion' should \n                    be considered to be 'iron infusion'). Information not in context should be searched online.\n                    "}, {'role': 'user', 'content': 'When you have finished recording, you may hang up or press 1 for more options.'}, {'role': 'assistant', 'content': "It seems like there might be some confusion. This message sounds like something you would hear on a voicemail system. As a digital assistant, I'm here to help you with your needs related to Chisholm Medical Centre. Do you need assistance with anything else, such as booking an appointment or getting information about our services at the centre?"}]} 
+
+
+USER TRANSCRIPTION ------ When you have finished recording, you may hang up or press 1 for more options. 
+
+
+GPT-4 RESPONSE ------ It seems like there might be some confusion. This message sounds like something you would hear on a voicemail system. As a digital assistant, I'm here to help you with your needs related to Chisholm Medical Centre. Do you need assistance with anything else, such as booking an appointment or getting information about our services at the centre? 
+
+
