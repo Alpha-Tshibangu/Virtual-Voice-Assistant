@@ -2,7 +2,7 @@
 
 ### Overview
 
-The Virtual Voice Assistant is a versatile system designed to handle over-the-phone voice interactions across various industries. Its adaptive and context-aware design allows it to be integrated into numerous applications, ranging from customer support in retail to receptionist duties in medical or corporate environments. In this specific repository, the Virtual Voice Assistant has been tailored as a virtual receptionist for the Chisholm Medical Centre. Its primary role here is to assist patients by providing information, handling inquiries, checking availability and booking medical appointments.
+The Virtual Voice Assistant is a system designed to handle over-the-phone voice interactions. Its adaptive and context-aware design allows it to be integrated into numerous applications, ranging from customer support in retail to receptionist duties in medical or corporate environments. In this specific repository, the Virtual Voice Assistant has been tailored for the Chisholm Medical Centre for use as a virtual receptionist. Its primary role here is to assist patients by providing information, handling inquiries, checking availability and booking medical appointments. It can, however, be adapted for various other use cases.
 
 ### Features
 
@@ -26,7 +26,7 @@ The Virtual Voice Assistant is a versatile system designed to handle over-the-ph
   - **Vonage**: For handling voice calls and sending SMS.
   - **Whisper ASR**: For voice transcription.
   - **OpenAI GPT-4 Chat Completion API**: For interpreting and processing transcribed texts.
-  - **Pinecone**: Likely used for semantic searches.
+  - **Pinecone**: Used for semantic search.
 
 ### Setup
 
@@ -39,7 +39,7 @@ The Virtual Voice Assistant is a versatile system designed to handle over-the-ph
 
 3. Run the script to start the virtual assistant.
 
-### Pinecone: Knowledge-based Retrieval
+### Pinecone: Knowledge-base Retrieval
 
 The system employs Pinecone, a vector store, to serve as its knowledge base. Pinecone assists in storing embeddings and converting textual data for retrieval of similar documents or information. This facilitates quick and context-aware responses by the assistant based on the ingested knowledge. Ensure you have node and npm installed, and navigate to the `utils` folder and follow the instructions below.
 
