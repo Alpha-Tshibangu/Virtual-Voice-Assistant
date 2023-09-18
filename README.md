@@ -41,7 +41,7 @@ The Virtual Voice Assistant is a system designed to handle over-the-phone voice 
 
 ### Pinecone: Knowledge-base Retrieval
 
-The system employs Pinecone, a vector store, to serve as its knowledge base. Pinecone assists in storing embeddings and converting textual data for retrieval of similar documents or information. This facilitates quick and context-aware responses by the assistant based on the ingested knowledge. Ensure you have node and npm installed, and navigate to the `utils` folder and follow the instructions below.
+The system employs Pinecone, a vector store, to serve as its knowledge base. Pinecone assists in storing embeddings and converting textual data (user input queries) for retrieval of similar information from documents. This facilitates quick and context-aware responses by the assistant based on the retreived text. Ensure you have node and npm installed, navigate to the `utils` folder and follow the instructions below.
 
 #### Ingesting Data into Pinecone:
 
