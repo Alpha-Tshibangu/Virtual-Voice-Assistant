@@ -157,8 +157,7 @@ async def transcribe_audio(audio_file_path):
 
 def context_lookup(query):
 
-    # os.environ['OPENAI_API_KEY'] = "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"
-    os.environ['OPENAI_API_KEY'] = "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"
+    os.environ['OPENAI_API_KEY'] = "YOUR_OPENAI_API_KEY"
 
     embeddings = OpenAIEmbeddings()
 
