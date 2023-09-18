@@ -10,7 +10,7 @@ The Virtual Voice Assistant is a system designed to handle over-the-phone voice 
 2. **Voice Transcription**: Transcribes voice inputs to text using the Whisper ASR service.
 3. **Natural Language Processing**: Utilises OpenAI's GPT-4 Chat Completion API to interpret transcribed text and make decisions.
 4. **Semantic Search**: Uses Pinecone for potential semantic searches or other functionalities.
-5. **SMS Service**: The system has an SMS initialisation, likely to send SMS notifications or responses.
+5. **SMS Service**: Uses Vonage SMS to send SMS notifications.
 
 ### Key Functionalities
 
